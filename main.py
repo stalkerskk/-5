@@ -6,3 +6,5 @@ for elem in array:
     if elem > k:
         count += 1  #
         summa += elem
+        print("Количество элементов, больших", k, ":", count)
+        print("Их сумма:", summa)
